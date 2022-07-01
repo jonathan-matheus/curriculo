@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 100px;
+}
+
+
+/* Resetando alguns estilos padrões do navegador */
+h1 {
+    margin: 0px;
+}
+
+#meu-nome {
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+    margin: 0px;
+}
+
+ul {
+    /* TODO criar um card no anki para a propriedade list-style */
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
