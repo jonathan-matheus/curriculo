@@ -7,89 +7,86 @@
 </head>
 
 <body>
-    <h1 id="meu-nome">Jonathan Matheus Da Silva</h1>
-    <p id="curiosidade">Uma curiosidade sobre este currículo, e que ele foi feito com HTML, e CSS, 
-        seu código-fonte pode ser encontrado no seguinte repositório:
-        <a href="https://github.com/getwolff/curriculo">
-            https://github.com/getwolff/curriculo
-        </a>
-    </p>
-    <!-- TODO criar um card no anki para a tag hr -->
-    <hr>
-    <!-- TODO criar um cartão para a tag address no anki-->
-    <div id="contato">
-        <address>
-            <!-- TODO criar cartões para os tipos de link, de telefone e email no anki -->
-            <ul class="remover-list-style">
-                <li>Endereço: <a href="https://goo.gl/maps/k21JK3t9CLCFSAgT7">Maceió, Alagoas</a></li>
-                <li>Telefone: <a href="tel:82988290728">(82) 9 8829 - 0728</a></li>
-                <li>E-mail: <a href="mailto:johhn.dev@gmail.com">johhn.dev@gmail.com</a></li>
-            </ul>
-        </address>
+    <div class="grid-1">
+        <!-- TODO redimencioar essa imagen no gimp, para que ela não fique assim esticada -->
+        <div class="grid-2">
+            <div id="perfil">
+                <img id="foto-perfil" src="./minha-foto.jpeg" alt="minha foto" width="250px" height="250px">
+                <h1 id="meu-nome">Jonathan Matheus Da Silva</h1>
+                <h2>Desenvolvedor Front-end Junior</h2>
+            </div>
 
-        <div id="redes-sociais">
-            <ul class="remover-list-style">
-                <li>GitHub: <a href="https://github.com/getwolff">https://github.com/getwolff</a></li>
-                <li>
-                    Linkedin:
-                    <a href="https://www.linkedin.com/in/jonathan-matheus-da-silva-1a210b244/">
-                        https://www.linkedin.com/in/jonathan-matheus-da-silva-1a210b244/</a>
-                </li>
+            <div id="contato">
+                <address>
+                    <ul class="remover-list-style">
+                        <li>Endereço: <a href="https://goo.gl/maps/k21JK3t9CLCFSAgT7">Maceió, Alagoas</a></li>
+                        <li>Telefone: <a href="tel:82988290728">(82) 9 8829 - 0728</a></li>
+                        <li>E-mail: <a href="mailto:johhn.dev@gmail.com">johhn.dev@gmail.com</a></li>
+                    </ul>
+                </address>
+
+                <div id="redes-sociais">
+                    <ul class="remover-list-style">
+                        <li>GitHub: <a href="https://github.com/getwolff">https://github.com/getwolff</a></li>
+                        <li>
+                            Linkedin:
+                            <a href="https://www.linkedin.com/in/jonathan-matheus-da-silva-1a210b244/">
+                                https://www.linkedin.com/in/jonathan-matheus-da-silva-1a210b244/</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <h2>Habilidades</h2>
+            <hr>
+            <div id="habilidades">
+                <div>
+                    <ul class="remover-list-style">
+                        <li>UI/UX Design</li>
+                        <li>HTML e CSS</li>
+                        <li>Git e Github</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Educação</h2>
+            <hr>
+            <ul class="alinhando">
+                <li><b>Ciência da computação</b> - Unit - 4º Período</li>
+            </ul>
+
+            <h2>Cursos</h2>
+            <hr>
+            <ul class="alinhando">
+                <li><b>UI/UX Design para iniciantes</b> - Origamid - Em andamento</li>
+                <li><b>HTML e CSS para iniciantes</b> - Origamid - Em andamento</li>
             </ul>
         </div>
     </div>
 
+    <div class="grid-1">
+        <h2>Projetos</h2>
+        <hr>
+        <b>Bikcraft - posicionamento</b> | HTML, CSS |
+        <a href="https://getwolff.github.io/bikcraft-posicionamento/">
+            https://getwolff.github.io/bikcraft-posicionamento/</a>
+        <p>O site foi criado como um exercício do curso "HTML e CSS para
+            iniciantes" da origamid</p>
 
-    <h2>Habilidades</h2>
-    <hr>
-    <div id="habilidades">
-        <div>
-            <ul class="remover-list-style">
-                <li>UI/UX Design</li>
-                <li>HTML e CSS</li>
-                <li>Git e Github</li>
-            </ul>
-        </div>
-
-        <div>
-            <ul>
-                <li>Linux</li>
-                <li>Wordpress</li>
-            </ul>
-        </div>
+        <ul class="alinhando">
+            <li>Uso das propriedades do CSS
+                <b>position, display flex e grid</b>
+            </li>
+        </ul>
     </div>
-
-    <h2>Objetivo</h2>
-    <hr>
-    Desenvolvedor Front-end Junior
-
-    <h2>Projetos</h2>
-    <hr>
-    <!-- TODO criar um card no anki para a tag strong -->
-    <b>Bikcraft - posicionamento</b> | HTML, CSS |
-    <a href="https://getwolff.github.io/bikcraft-posicionamento/">
-        https://getwolff.github.io/bikcraft-posicionamento/</a>
-    <p>O site foi criado como um exercício do curso "HTML e CSS para
-        iniciantes" da origamid</p>
-
-    <ul class="alinhando">
-        <li>Uso das propriedades do CSS
-            <b>position, display flex e grid</b>
-        </li>
-    </ul>
-
-    <h2>Educação</h2>
-    <hr>
-    <ul class="alinhando">
-        <li><b>Ciência da computação</b> - Unit - 4º Período</li>
-    </ul>
-
-    <h2>Cursos</h2>
-    <hr>
-    <ul class="alinhando">
-        <li><b>UI/UX Design para iniciantes</b> - Origamid - Em andamento</li>
-        <li><b>HTML e CSS para iniciantes</b> - Origamid - Em andamento</li>
-    </ul>
 </body>
 
 </html>

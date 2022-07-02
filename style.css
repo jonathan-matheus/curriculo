@@ -1,15 +1,37 @@
-/* TODO padronizar os tamanhos de fonts para melhora o design */
+/* Estilo geral do site */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
 }
 
-
-/* Resetando alguns estilos padrões do navegador */
 h1 {
     margin: 0px;
+    font-size: 24px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Coluna 1 */
+/* Conuna 1 - Foto de Perfil */
+#foto-perfil {
+    border-radius: 50%;
+}
+
+/* Conuna 1 - Nome e titulo */
 #meu-nome {
     margin-bottom: 20px;
 }
@@ -30,7 +52,6 @@ ul.alinhando {
 }
 
 .remover-list-style {
-    /* TODO criar um card no anki para a propriedade list-style */
     list-style: none;
 }
 
