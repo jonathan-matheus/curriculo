@@ -1,70 +1,52 @@
+/* Fontes */
+/* TODO criar um flash card para a propriedade 'font-face */
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
 /* Estilo geral do site */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 50px;
-    display: grid;
-    grid-template-columns: 400px 1fr;
-}
-
-h1 {
     margin: 0px;
-    font-size: 24px;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    justify-items: center;
 }
 
-h2 {
-    font-size: 20px;
+/* Conteudo esquerdo geral */
+
+#conteudo-esquerdo {
+    width: 100%;
+    background: #101010;
 }
+
+#perfil {
+    text-align: center;
+}
+
+/* Estilisando texto */
+.titulo-0 {
+    font-family: 'Roboto';
+    font-style: normal;
+    /* TODO criar um card no anki para a propriedade font-weight */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* bloco perfil */
 
 img {
     max-width: 100%;
 }
 
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-/* Coluna 1 */
-/* Conuna 1 - Foto de Perfil */
 #foto-perfil {
     border-radius: 50%;
 }
 
-/* Conuna 1 - Nome e titulo */
-#meu-nome {
-    margin-bottom: 20px;
-}
+/* bloco contato */
 
 address {
     font-style: normal;
     margin: 0px;
-}
-
-ul {
-    padding: 0px;
-    margin: 0px;
-}
-
-/* Apenas posicionado a decoração da lista dentro do grid */
-ul.alinhando {
-    padding-left: 16px;
-}
-
-.remover-list-style {
-    list-style: none;
-}
-
-#contato {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-#habilidades {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-#curiosidade {
-    font-size: 12px;
 }
