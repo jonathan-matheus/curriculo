@@ -1,5 +1,4 @@
 /* Fontes */
-/* TODO criar um flash card para a propriedade 'font-face */
 @font-face {
     font-family: "Roboto";
     src: url("./fonts/Roboto-Regular.ttf");
@@ -13,9 +12,39 @@ body {
     justify-items: center;
 }
 
+ul {
+    list-style-position: inside;
+    padding: 0px;
+}
+
 h1,
 h2 {
     margin: 0px;
+}
+
+/* Estilisando texto */
+.titulo-0 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.titulo-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.titulo-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 /* Conteudo esquerdo geral */
@@ -31,22 +60,13 @@ h2 {
     text-align: center;
 }
 
-/* Estilisando texto */
-.titulo-0 {
-    font-family: 'Roboto';
-    font-style: normal;
-    /* TODO criar um card no anki para a propriedade font-weight */
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+div#conteudo-esquerdo a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.titulo-2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+div#conteudo-esquerdo ul {
+    list-style: none;
 }
 
 /* bloco perfil */
@@ -68,11 +88,13 @@ img {
 }
 
 #divisor {
-    width: 30px;
+    width: 300px;
     height: 2px;
-    background: orange;
+    background: #fff;
     position: absolute;
     margin: 20px 0px;
+    top: 20px;
+    left: 90px;
 }
 
 /* bloco contato */
@@ -82,6 +104,34 @@ address {
     margin: 0px;
 }
 
-#contato {
+#conteudo-geral-esquerdo {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#contato ul {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#contato ul li {
+    margin-bottom: 10px;
+}
+
+li#telefone-svg {
+    list-style: url(./design/imagens/telefone.svg);
+}
+
+li#email-svg {
+    list-style: url(./design/imagens/e-mail.svg);
+}
+
+li#map-svg {
+    list-style: url(./design/imagens/pin.svg);
+}
+
+/* bloco educação */
+
+div#educacao {
     margin-top: 40px;
 }
