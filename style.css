@@ -13,11 +13,18 @@ body {
     justify-items: center;
 }
 
+h1,
+h2 {
+    margin: 0px;
+}
+
 /* Conteudo esquerdo geral */
 
 #conteudo-esquerdo {
     width: 100%;
     background: #101010;
+    color: #fff;
+    padding-top: 50px;
 }
 
 #perfil {
@@ -34,6 +41,14 @@ body {
     line-height: 30px;
 }
 
+.titulo-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 /* bloco perfil */
 
 img {
@@ -44,9 +59,29 @@ img {
     border-radius: 50%;
 }
 
+#nome-compelto {
+    margin: 8px 0px;
+}
+
+#bloco {
+    position: relative;
+}
+
+#divisor {
+    width: 30px;
+    height: 2px;
+    background: orange;
+    position: absolute;
+    margin: 20px 0px;
+}
+
 /* bloco contato */
 
 address {
     font-style: normal;
     margin: 0px;
+}
+
+#contato {
+    margin-top: 40px;
 }
