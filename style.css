@@ -18,7 +18,7 @@ ul {
 }
 
 h1,
-h2 {
+h2, p {
     margin: 0px;
 }
 
@@ -47,6 +47,21 @@ h2 {
     line-height: 20px;
 }
 
+.titulo-3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+/* Cores gerais */
+
+.color-blue {
+    color: #388BFD;
+    margin-bottom: 0px;
+}
+
 /* Conteudo esquerdo geral */
 
 #conteudo-esquerdo {
@@ -67,6 +82,10 @@ div#conteudo-esquerdo a {
 
 div#conteudo-esquerdo ul {
     list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 /* bloco perfil */
@@ -91,10 +110,8 @@ img {
     width: 300px;
     height: 2px;
     background: #fff;
-    position: absolute;
-    margin: 20px 0px;
-    top: 20px;
-    left: 90px;
+    margin-left: 100px;
+    margin-top: 40px;
 }
 
 /* bloco contato */
@@ -105,7 +122,7 @@ address {
 }
 
 #conteudo-geral-esquerdo {
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 100px;
 }
 
@@ -114,24 +131,89 @@ address {
     margin-top: 20px;
 }
 
-#contato ul li {
-    margin-bottom: 10px;
-}
-
 li#telefone-svg {
-    list-style: url(./design/imagens/telefone.svg);
+    list-style: url("./design/imagens/telefone.svg");
 }
 
 li#email-svg {
-    list-style: url(./design/imagens/e-mail.svg);
+    list-style: url("./design/imagens/e-mail.svg");
 }
 
 li#map-svg {
-    list-style: url(./design/imagens/pin.svg);
+    list-style: url("./design/imagens/pin.svg");
 }
 
 /* bloco educação */
 
 div#educacao {
     margin-top: 40px;
+}
+
+#educacao-titulo {
+    margin-bottom: 20px;
+}
+
+/* bloco habilidades */
+
+#habilidades {
+    margin-top: 40px;
+}
+
+#habilidades-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li#figma-svg{
+    list-style: url("./design/imagens/figma.svg");
+}
+
+li#html-svg {
+    list-style: url("./design/imagens/html5.svg");
+}
+
+li#css-svg {
+    list-style: url("./design/imagens/css3.svg");
+}
+
+li#git-svg {
+    list-style: url("./design/imagens/git.svg");
+}
+
+li#linux-svg {
+    list-style: url("./design/imagens/linux.svg");
+}
+
+li#wordpress-svg {
+    list-style: url("./design/imagens/wordpress.svg");
+}
+
+div#habilidades-bloco-0 {
+    margin-left: 25px;
+}
+
+/* bloco cursos */
+
+div#cursos {
+    margin-top: 40px;
+}
+
+/* Conteudo direito geral */
+
+div#conteudo-direito {
+    margin-top: 50px;
+}
+
+/* Projetos */
+
+div#projetos {
+    margin-top: 40px;
+}
+
+div#projeto-bikcraft {
+    margin-top: 20px;
+}
+
+div#projeto-bikcraft p {
+    margin-bottom: 10px;
 }
